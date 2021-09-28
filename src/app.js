@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/api', routes);
+app.use('/v1', routes);
 
 app.use(validationErrorHandler);
 app.use(errorHandler);
