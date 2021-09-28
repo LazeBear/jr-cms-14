@@ -16,3 +16,11 @@ function validateToken(token) {
 }
 
 module.exports = { generateToken, validateToken };
+
+/**
+ * local -> PR -> master
+ * testing - master
+ * staging - function ready
+ * production
+ *
+ */
